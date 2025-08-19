@@ -141,10 +141,10 @@ body {
   --font-smaller: 0.875em;
   --font-small: 0.933em;
   /* UI font sizes */
-  --font-ui-smaller: 12px;
-  --font-ui-small: 13px;
-  --font-ui-medium: 16px;
-  --font-ui-large: 20px;
+  --font-ui-smaller: 13px;
+  --font-ui-small: 16px;
+  --font-ui-medium: 20px;
+  --font-ui-large: 24px;
   /* Font weights */
   --font-thin: 100;
   --font-extralight: 200;
@@ -191,11 +191,11 @@ body {
   --h5-line-height: var(--line-height-normal);
   --h6-line-height: var(--line-height-normal);
   --h1-size: 2em;
-  --h2-size: 1.6em;
-  --h3-size: 1.37em;
+  --h2-size: 1.75em;
+  --h3-size: 1.5em;
   --h4-size: 1.25em;
-  --h5-size: 1.12em;
-  --h6-size: 1.12em;
+  --h5-size: 1em;
+  --h6-size: 1em;
   --h1-style: normal;
   --h2-style: normal;
   --h3-style: normal;
@@ -218,15 +218,15 @@ body {
   --header-height: 40px;
   /* Horizontal rules */
   --hr-color: var(--background-modifier-border);
-  --hr-thickness: 2px;
+  --hr-thickness: 3px;
   /* Icons */
   --icon-size: var(--icon-m);
   --icon-stroke: var(--icon-m-stroke-width);
   --icon-xs: 14px;
   --icon-s: 16px;
   --icon-m: 18px;
-  --icon-l: 18px;
-  --icon-xl: 32px;
+  --icon-l: 20px;
+  --icon-xl: 24px;
   --icon-xs-stroke-width: 2px;
   --icon-s-stroke-width: 2px;
   --icon-m-stroke-width: 1.75px;
@@ -243,7 +243,7 @@ body {
   /* Indentation guide */
   --indentation-guide-color: rgba(var(--ctp-surface1));
   --indentation-guide-color-active: rgb(var(--ctp-accent), 70%);
-  --indentation-guide-width: 2px;
+  --indentation-guide-width: 3px;
   /* Inline title */
   --inline-title-color: var(--h1-color);
   --inline-title-font: var(--h1-font);
@@ -254,8 +254,8 @@ body {
   --inline-title-weight: var(--h1-weight);
   --inline-title-margin-bottom: 0.5em;
   /* Inputs */
-  --input-height: 30px;
-  --input-radius: 5px;
+  --input-height: 33px;
+  --input-radius: 7px;
   --input-font-weight: var(--font-normal);
   --input-border-width: 1px;
   /* Italic */
@@ -290,10 +290,10 @@ body {
   --link-unresolved-opacity: 1;
   --link-unresolved-filter: none;
   --link-unresolved-decoration-style: solid;
-  --link-unresolved-decoration-color: rgb(var(--ctp-red));
+  --link-unresolved-decoration-color: rgb(var(--ctp-maroon));
   /* Lists */
-  --list-indent: 2em;
-  --list-spacing: 0.1em;
+  --list-indent: 3rem;
+  --list-spacing: 0.5rem;
   --list-marker-color: rgb(var(--ctp-accent));
   --list-marker-color-hover: var(--text-muted);
   --list-marker-color-collapsed: var(--text-accent);
@@ -319,7 +319,7 @@ body {
   --nav-item-weight: inherit;
   --nav-item-weight-hover: inherit;
   --nav-item-weight-active: inherit;
-  --nav-item-white-space: nowrap;
+  --nav-item-white-space: wrap;
   --nav-indentation-guide-width: var(--indentation-guide-width);
   --nav-indentation-guide-color: var(--indentation-guide-color);
   --nav-collapse-icon-color: var(--collapse-icon-color);
@@ -473,7 +473,7 @@ body {
   --table-header-border-width: var(--table-border-width);
   --table-header-border-color: var(--table-border-color);
   --table-header-font: inherit;
-  --table-header-size: var(--font-smaller);
+  --table-header-size: var(--font-ui-medium);
   --table-header-weight: var(--font-normal);
   --table-header-color: var(--text-muted);
   --table-text-size: inherit;
@@ -491,17 +491,17 @@ body {
   --tag-color-hover: rgb(var(--ctp-tag-pill-color, var(--ctp-accent)));
   --tag-decoration: none;
   --tag-decoration-hover: underline;
-  --tag-background: transparent;
-  --tag-background-hover: 0;
+  --tag-background: rgb(var(--mono-rgb-100), 10%);
+  --tag-background-hover: rgb(var(--mono-rgb-100), 15%);
   --tag-border-color: hsl(var(--interactive-accent-hsl), 10%);
   --tag-border-color-hover:
     hsl(
       var(--interactive-accent-hsl),
       15%
     );
-  --tag-border-width: 0;
-  --tag-padding-x: 0;
-  --tag-padding-y: 0;
+  --tag-border-width: 1px;
+  --tag-padding-x: 7px;
+  --tag-padding-y: 3px;
   --tag-radius: 0.8em;
   /* Window frame */
   --titlebar-background: var(--background-secondary);
@@ -513,9 +513,9 @@ body {
   --titlebar-text-color-highlighted: var(--text-accent-hover);
   --titlebar-text-weight: var(--font-bold);
   /* Toggles */
-  --toggle-border-width: 2px;
-  --toggle-width: 40px;
-  --toggle-radius: 18px;
+  --toggle-border-width: 3px;
+  --toggle-width: 44px;
+  --toggle-radius: 20px;
   --toggle-thumb-color: var(--text-normal);
   --toggle-thumb-radius: 18px;
   --toggle-thumb-height: 18px;
